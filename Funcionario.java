@@ -3,7 +3,7 @@ package introdução;
 public class Funcionario {
 	double SalarioLiquido;
 	double SalarioBruto;
-	double Imposto = 0.25;
+	double Imposto = 0.30;
 	String Nome;
 	
 	double salario() {
