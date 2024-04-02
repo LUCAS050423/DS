@@ -8,6 +8,7 @@ public class Imc {
 	  
 	  double calcular() {
 		  double imc = peso / (altura*altura);
+		  imc = Math.round(imc * 100.0) / 100.0;
 		  
 
 		  if (imc < 18.5) {
