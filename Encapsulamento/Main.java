@@ -9,15 +9,15 @@ public class Main {
 		System.out.println("Coloque o nome do produto:");
 		PrimeiroProduto.setNome(in.next());
 		
-		System.out.println("Coloque o preço de custo:");	
+		System.out.println("Coloque o preÃ§o de custo:");	
 		PrimeiroProduto.setPrecoCusto(in.nextDouble());
 		
-		System.out.println("Coloque o preço de venda:");
+		System.out.println("Coloque o preÃ§o de venda:");
 		PrimeiroProduto.setPrecoVenda(in.nextDouble());
 		
-        System.out.println("Produto: " + PrimeiroProduto.getNome());
-        System.out.printf("Lucro: R$%.2f\n", PrimeiroProduto.calcularMargemLucro());
-        System.out.printf("Porcentagem de lucro: %.2f%%\n", PrimeiroProduto.getMargemLucroPorcentagem());
+	        System.out.println("Produto: " + PrimeiroProduto.getNome());
+	        System.out.println("Lucro: R$"+ PrimeiroProduto.calcularMargemLucro());
+	        System.out.println("Porcentagem de lucro: "+ PrimeiroProduto.getMargemLucroPorcentagem()+"%");
 		
 			
 		}
