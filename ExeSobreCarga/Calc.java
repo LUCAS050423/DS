@@ -10,7 +10,7 @@ public class Calc {
 
     
 
-    // M�todos get e set
+    // Métodos get e set
 
     public String getNome() {
 
@@ -38,7 +38,7 @@ public class Calc {
 
  
 
-    // M�todo de soma inteiros e decimais
+    // Método de soma inteiros e decimais
 
     public void soma(int n1, int n2) {
 
@@ -53,7 +53,7 @@ public class Calc {
     }
     
 
-// M�todo de subtracao inteiros e decimais
+// Método de subtracao inteiros e decimais
 
 public void subtracao(int n1, int n2) {
 
