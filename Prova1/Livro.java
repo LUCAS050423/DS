@@ -1,4 +1,3 @@
-
 public class Livro extends Publicacao {
 	 private int numPag;
 	 private String editora;
@@ -42,7 +41,4 @@ public class Livro extends Publicacao {
 	
 	
 	
-}
-
-
 }
